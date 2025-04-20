@@ -2,14 +2,14 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Vault",
   "logo": {
-    "dark": "https://vaultmedia.s3.eu-west-2.amazonaws.com/branding/vaultlogo.png",
-    "light": "https://vaultmedia.s3.eu-west-2.amazonaws.com/branding/vaultlogo.png"
+    "dark": "https://vaultmedia.s3.eu-west-2.amazonaws.com/branding/vaultlogo2.png",
+    "light": "https://vaultmedia.s3.eu-west-2.amazonaws.com/branding/vaultlogo1.jpg"
   },
-  "favicon": "https://vaultmedia.s3.eu-west-2.amazonaws.com/branding/vaultlogo.png",
+  "favicon": "https://vaultmedia.s3.eu-west-2.amazonaws.com/branding/vaultlogo2.png",
   "colors": {
     "primary": "#5046E5",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "light": "#5046E5",
+    "dark": "#5046E5",
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
@@ -33,28 +33,26 @@
   ],
   "anchors": [
     {
+      "name": "Website",
+      "icon": "newspaper",
+      "url": "https://vaultroblox.com"
+    },
+    {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://docs.vaultroblox.com"
     },
     {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "icon": "discord",
+      "url": "https://discord.gg/X4huHMy78z"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Getting Started",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
       ]
     },
     {
